@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>topic news</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+	rel="stylesheet" type="text/css">
+<link href="css/custom.min.css" rel="stylesheet"
+	type="text/css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"
+	type="text/javascript"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"
+	type="text/javascript"></script>
+<script type="text/javascript" src="js/rsslinks.min.js"></script>
+<script type="text/javascript" src="js/feedRss.min.js"></script>
+<script type="text/javascript">
+//$(document).ready(sizeContent);
+
+//Every resize of window
+//$(window).resize(sizeContent);
+
+//Dynamically assign height
+function sizeContent() {
+	//var newHeight = $("html").height() - $("#header").height() - $("#footer").height() + "px";
+    var newHeight = $("html").height() - $("#header").height() + "px";
+    $("#content").css("height", newHeight);
+}
+</script>
+</head>
+
+<body>
+<div data-role="page" class="page">
+  <div data-role="header" id="header" data-position="fixed">
+    <h1>TOPIC NEWS</h1>
+    <a href="#help" class="icon"><img src="images/help.png"/></a> <a href="#info" class="icon"><img src="images/info.png"/></a> </div>
+  <div data-role="content" id="content">
+    <ul id ="mainContant">
+      <li onClick="movePage(0)">All News</li>
+      <li onClick="movePage(1)">Popular</li>
+      <li onClick="movePage(2)">Politics</li>
+      <li onClick="movePage(3)">Economy</li>
+      <li onClick="movePage(4)">International</li>
+      <li onClick="movePage(5)">Sport</li>
+      <li onClick="movePage(6)">Soccer</li>
+      <li onClick="movePage(7)">Baseball</li>
+      <li onClick="movePage(8)">Society</li>
+      <li onClick="movePage(9)">IT</li>
+      <li onClick="movePage(10)">Science</li>
+      <li onClick="movePage(11)">Entertainment</li>
+    </ul>
+  </div>
+  <div data-role="footer" id="footer">
+    <p>© 2014 Topic news</p>
+    <p> TOPIC NEWS의 기사 표시는 RSS에 의해 결정된 것입니다.<br/>
+      각 기사글의 저작권은 해당 매체에 있으며, 저작권법 및 국제조약의 보호를 받습니다.</br>각 기사글에 대한 법률적 책임은 각 매체 또는 저자에게 있으며 TOPIC NEWS의 입장과 다를 수 있습니다.
+    </p>
+    <p>MADE BY YEONGJUN, YONGJAE </p>
+  </div>
+</div>
+</div>
+<!-- page -->
+
+<!-- info page -->
+<div data-role="page" data-dialog="true" id="info">
+		<div data-role="header" data-theme="b">
+			<h1>News Topic??</h1>
+		</div>
+		<div role="main" class="ui-content" id="popup">
+			<h1>Collection of News Topic</h1>
+			<p><b>TOPIC NEWS</b>는 여러 매체의 기사들의 제목만을 한눈에 보기 위해 만들어졌습니다.</p><p><b>TOPIC NEWS</b>는 각종 매체의 RSS를 이용하여 자료를 수집하지 않으며, 실시간으로 기사(article)의 아웃링크만을 제공합니다. 즉, 기사 내용은 해당 매체 사이트로 이동하여 보실 수 있습니다.<br/></p>
+			<h3>contact</h3> 
+			<p>email : opid911@gmail.com</p>
+		</div>
+	</div>
+	<!-- page -->
+
+<!-- help page -->
+<div data-role="page" data-dialog="true" id="help">
+		<div data-role="header" data-theme="b">
+			<h1>Help</h1>
+		</div>
+		<div role="main" class="ui-content" id="popup">
+			<h1>사용법</h1>
+			<p>카테고리 별로 분류되어 있고, 각 카테고리내에는 기사제목은 해당 매체로 연결되어있습니다.
+		</div>
+	</div>
+	<!-- page -->
+</body>
+</html>

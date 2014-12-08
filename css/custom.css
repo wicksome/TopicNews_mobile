@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+@import url(http://fonts.googleapis.com/css?family=Exo);
+@font-face {
+	font-family: ls;
+	src: url(/fonts/LexiSaebomR.eot);
+	src: url(/fonts/LexiSaebomR.eot?#iefix) format('embedded-opentype'), url(/fonts/LexiSaebomR.woff) format('woff'), url(/fonts/LexiSaebomR.ttf) format('truetype'), url(/fonts/LexiSaebomR.svg) format('svg');
+}
+/* custom css */
+html, body {
+	height: 100% !important;
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: "Nanum Gothic", 'Exo', sans-serif;
+	font-size: 14px;
+	line-height: 200%;
+	color: #FFFFFF;
+	background-color: #515151 !important;/*height: 100%;*/
+}
+#header {
+	height: 50px;
+	/*padding: 5px 0px 5px 0px;*/
+	text-shadow: 1px 1px 10px #252526;
+	color: #FFFFFF;
+	font-weight: 900;
+	border-style: none;
+	font-size: 18px;
+	border-color: 1D1C25;
+	background-color: #171717;
+}
+#content {
+	/*	background-image: url("images/bg.jpg"); */
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: #252526;
+	color: #FFFFFF;
+	min-height: 100%;
+}
+#footer {
+	font-size: 12px;
+	background-color: #171717 !important;
+	color: #FFFFFF;
+	width: 100%;
+	height: auto;
+	border-color: #212121;
+	text-align: center;
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+}
+/* loading css location center setting */
+#pageitem .loader {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.icon {
+	/*	position:absolute;*/
+	border: none !important;
+	background-color: transparent !important;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	border-style: none;
+	border-width: 0px;
+	box-shadow: none
+}
+.icon img {
+	width: 40px;
+	height: 40px;
+	margin: 2px auto;
+}
+.icon img:active {
+	border-style: none;
+	border-width: 0px;
+	box-shadow: none
+}
+ul {
+	margin: 0px;
+	width: auto;
+	/*background: #292929;*/
+	color: white;
+	list-style: none;
+	padding-left: 0;
+	height: 100%
+}
+li {
+	text-decoration: none !important;
+	padding: 30px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid #3c3c3c;
+	font-weight: normal;
+}
+li:hover {
+	background-color: #484848;
+}
+li:active {
+	background-color: #1B1B1B;
+}
+#mainContant {
+	text-shadow: 2px 2px 5px #252526;
+	text-align: center;
+	font-weight: 900 !important;
+	font-size: 30px !important;
+}
+.item {
+	font-size: 18px !important;
+	font-weight: 100 !important;
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+	list-style: none;
+}
+/* 말줄임표 지정 */
+.item p {
+	margin: 0px !important;
+	width: 99%;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: normal !important;
+	display: block;
+}
+#popup {
+	color: #000000 !important;
+	background-color:#FFFFFF;
+}
+#popup h1 {
+	text-align:center;
+}
