@@ -1,6 +1,6 @@
 # TOPIC NEWS 
 
-[http://kyz1018.dothome.co.kr/news/index.html](kyz1018.dothome.co.kr/news/index.html)
+[http://kyz1018.cafe24.com/news/index.html](http://kyz1018.cafe24.com/news/index.html)
 
 각종 RSS를 통해 기사의 타이틀만 보여주는 웹앱이다.
 
